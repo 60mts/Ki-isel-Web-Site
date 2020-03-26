@@ -1,9 +1,9 @@
-#isim>p{
+#isim>h1{
 
     color:white;
     transition: all 1s;
 }
-#isim>p:hover{
+#isim>h1:hover{
     color:red;
 }
 body{
@@ -21,7 +21,8 @@ color:white;
 }
 #onay{
      float: left;
-     margin-left: 400px;
-     
+     margin-left: 360px;
+     position: static;
+
 
 }
