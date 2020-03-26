@@ -36,8 +36,8 @@ color:white;
 }
 #p
 #profil>img{
-   ruby-align: center;
-    margin-left:450px;
+  float: left;
+    margin-left:600px;
     padding:20px;
 }
 #mesj{
