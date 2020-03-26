@@ -1,11 +1,10 @@
-#isim{
+#isim>p{
 
     color:white;
     transition: all 1s;
 }
-#isim:hover{
+#isim>p:hover{
     color:red;
-    
 }
 body{
    background-color:#525252;
@@ -19,4 +18,10 @@ body{
 ::selection{
 background-color:tomato;
 color:white;
+}
+#onay{
+     float: left;
+     margin-left: 400px;
+     
+
 }
