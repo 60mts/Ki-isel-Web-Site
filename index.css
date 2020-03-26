@@ -23,7 +23,7 @@ color:white;
      float: left;
      margin-left:70px;
      margin-top:0;
-     position: static;
+     position: fixed;
 }
 #profil{
     width:500px;
