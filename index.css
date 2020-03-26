@@ -1,5 +1,11 @@
-*{
-    padding:20px;
+#isim{
+
+    color:white;
+    transition: all 1s;
+}
+#isim:hover{
+    color:red;
+    
 }
 body{
    background-color:#525252;
