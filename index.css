@@ -36,7 +36,7 @@ color:white;
 }
 #p
 #profil>img{
-
+    align-content: center;
     margin-left:450px;
     padding:20px;
 }
