@@ -21,14 +21,14 @@ color:white;
 }
 #onay{
      float: left;
-     margin-left:70px;
+     margin-left:150px;
      margin-top:0;
      position: fixed;
 }
 #profil{
 
-    width:500px;
-    height:200px;
+    width:550px;
+    height:300px;
     background-color:#313131;
     padding:10px;
    
