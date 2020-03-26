@@ -39,6 +39,7 @@ color:white;
     padding:20px;
 }
 #mesj{
+    position: relative;
     margin-top:-150px;
     margin-left:150px;
     transition:all 1s;
