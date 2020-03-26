@@ -24,6 +24,16 @@ color:white;
      margin-left:50px;
      margin-top:0;
      position: static;
+}
+#profil{
+ 
+    width:700px;
+    height:100px;
+    background-color:#313131;
 
+}
+#profil>img{
 
+    margin-left:150px;
+    padding:20px;
 }
