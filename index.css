@@ -26,15 +26,18 @@ color:white;
      position: fixed;
 }
 #profil{
+
     width:500px;
     height:200px;
     background-color:#313131;
-    padding:5px;
+    padding:10px;
+   
 
 }
+#p
 #profil>img{
 
-    margin-left:250px;
+    margin-left:450px;
     padding:20px;
 }
 #mesj{
