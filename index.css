@@ -51,9 +51,17 @@ color:white;
     font-family:Impact;
     padding:10px;
 }
-#mesj:hover{
+#mesj:hover,#mesj:hover>img{
 
+    display:block;
+    margin-left:30px;
     color:white;
     background-color: red;
+
+}
+#mesj>img{
+display:none;
+transition:.1s ease-in-out;
+margin-left:-30px;
 
 }
