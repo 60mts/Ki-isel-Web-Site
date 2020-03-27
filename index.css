@@ -41,6 +41,11 @@ color:white;
     margin-left:500px;
     padding:20px;
 
+}#mesj>img{
+display:none;
+transition:.1s ease-in-out;
+margin-left:-30px;
+
 }
 #mesj:hover,img{
 
@@ -50,9 +55,4 @@ color:white;
     background-color: red;
 
 }
-#mesj>img{
-display:none;
-transition:.1s ease-in-out;
-margin-left:-30px;
 
-}
