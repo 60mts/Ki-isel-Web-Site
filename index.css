@@ -56,4 +56,19 @@ color:white;
     color:white;
     background-color: red;
 
+}#ig{
+    position: fixed;
+    margin-top:-150px;
+    margin-left:90px;
+    transition:all 1s;
+    border:none;
+    outline:none;
+    font-family:Impact;
+    padding:10px;
+}
+#ig:hover{
+
+
+    color:white;
+    background-color:red;
 }
