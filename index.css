@@ -32,10 +32,7 @@ color:white;
     height:600px;
     background-color:#313131;
     padding:10px;
-   
-
 }
-#p
 #profil>img{
   float: left;
     margin-left:500px;
@@ -58,8 +55,8 @@ color:white;
 
 }#ig{
     position: fixed;
-    margin-top:-150px;
-    margin-left:90px;
+    margin-top:-300pxx;
+    margin-left:180px;
     transition:all 1s;
     border:none;
     outline:none;
@@ -67,8 +64,6 @@ color:white;
     padding:10px;
 }
 #ig:hover{
-
-
     color:white;
     background-color:red;
 }
