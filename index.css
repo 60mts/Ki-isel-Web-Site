@@ -102,6 +102,7 @@ background-color:black;
  }
  head{
      width:100%;
-background-color: tomato;
+    background-color: tomato;
+    height:100px;
 
  }
