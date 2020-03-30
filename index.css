@@ -11,6 +11,7 @@ body{
    background-color:#525252;
 }
 #soon{
+    
     margin-top:200px;
     padding:20px;
     margin-left: 550px;
@@ -91,18 +92,12 @@ body{
 #youtube:hover{
     background-color: darkgray;
 }
-#profil>h4
-{
+#profil>h4{
 padding:10px;
 }
  #alt{
-
 background-color:black;
-
  }
-#ust{
-     width:100%;
-    background-color: tomato;
-    height:100px;
+    
 
- }
+  
