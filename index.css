@@ -1,128 +1,103 @@
-::selection{
-    background-color:tomato;
-    color: white;
-}
-#ust{
-    color:red;
-    position:fixed;
-    box-shadow: #ec2F4B 0px 5px 15px;
-    margin-left: -10px;
-    margin-top:-10px;
-    width:100%;
-    height:80px;
-    border-bottom:2px solid red;
-    background-color:white;
-    padding:30px;
-    transition:.1s inherit;
-}
-nav>ul{
-    cursor: pointer;
-    font-family: 'Righteous', cursive;
-    float:left;
-    margin-left:50px;
-    transition:.1s all;
-    width:120px;
-    height:85px;
-    padding-top:50px;
-    padding-left:5px;
-    list-style: clamp 1px;
-}
-nav>ul:hover{
-    background-color: #ec2F4B;
+h1{
+    margin-top:-350px;
+    padding-left:50px;
     color:white;
+    transition: all 1s;
 }
-#ara{
-    cursor: pointer;
-}
-#ara:hover>#araa{
-    transition: .4500ms ease-in;
-    display: block;
-}
-#ara:hover{
+#isim>h1:hover{
     color:red;
 }
 body{
+   background-color:#525252;
+}
+#soon{
+    
+    margin-top:200px;
+    padding:20px;
+    margin-left: 550px;
+}
+::selection{
+    background-color:tomato;
     color:white;
-    font-family: acumin-pro, sans-serif; 
-    font-weight: 700; 
-    font-style: normal; 
+}
+#onay{
+     float: left;
+     margin-left:100px;
+     margin-top:-70px;
+     position: absolute;
+}
+#profil{ 
+  border-radius:6px;
+    width:500px;
+    height:600px;
     background-color:#313131;
+    padding:10px;
+    transition: .1s all;
 }
-#sld-alt img{
-    user-select:none;
-    width:25px;
-    height:25px;
+#profil:hover{
+    display:block;
+    box-shadow:white 0px 4px 8px 8px;
 }
-#alt-bilgi{
-   margin-top:500px;
-}
-#sld-alt-sosyal{
-    width:100%;
-    height:500px;
-    background-color:#414141;
-}
-#sld-alt-sosyal img{
+#profil>img{
+    border-radius:½50;
+    border:5px  red solid;
     float: left;
+    margin-left:500px;
+    padding:20px;
     cursor: pointer;
-     user-select: none;
-    width:25px;
-    height:25px;
-    font-family: acumin-pro, sans-serif; 
-font-weight: 700; 
-font-style: italic; 
 }
-#yuvarlak{
-    background-color: white;
-    width:35px;
-    height:35px;
-    border-radius:50%;
-    transition:.4500ms ease-in;
+#mesj{
+   position: absolute;
+    margin-top:-180px;
+    margin-left:210px;
+    transition:all 1s;
+    border:none;
+    outline:none;
+    font-family:Impact;
+    padding:10px;
+    cursor: pointer;
 }
-#yuvarlak:hover{
-    background-color: red;
-    width:35px;
-    height:35px;
-    border-radius:50%;
+#mesj:hover{
+
+    color:white;
+    background-color: darkgray;
+
+}#ig{
+    position: absolute;
+    margin-top:-200px;
+    margin-left:260px;
+    transition:all 1s;
+    border:none;
+    outline:none;
+    font-family:Impact;
+    padding:10px;
+    cursor: pointer;
 }
-#mavi-tik{
-    user-select: none;
+#ig:hover{
+    color:white;
+    background-color:darkgray;
 }
-#mesaj-icon{
-    width:30px;
-    height:25px;
-    margin-top:0;
+#youtube{
+    border-radius:4px;
+    position: absolute;
+    margin-top:-200px;
+    margin-left:310px;
+    transition:all 1s;
+    border:none;
+    outline:none;
+    font-family:Impact;
+    padding:10px;
+    cursor: pointer;
 }
-#mesaj-icon p{
-    margin-top:0;
+#youtube:hover{
+    background-color: darkgray;
 }
-ul li{
-    border-bottom:1px black solid;
-    margin-left:-5px;
-    color: red;
-    background-color:white;
-    align-items:center;
-    margin-top: 0px;
-    width:250px;
-    height:50px;
-    list-style:none;
-    transition:.1s ease-in;
-    display: none;
-    text-align-last: center;
+#profil>h4{
+padding:10px;
 }
-ul li:first{
-    margin-top:75px;
-}
-ul:hover li{
-    color:red;
-    display: block;
-    padding:10px 20px;
-    transition:.1s all;
-}
-ul li:hover{
-    background-color:#ec2F4B;
-   color:white;
-}
-#alt-menu{
-    text-decoration: none;
-    list-style-type:none;
-}
+ #alt{
+background-color:black;
+ }
+    
+
+  
