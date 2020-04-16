@@ -1,103 +1,67 @@
-h1{
-    margin-top:-350px;
-    padding-left:50px;
-    color:white;
-    transition: all 1s;
-}
-#isim>h1:hover{
-    color:red;
-}
-body{
-   background-color:#525252;
-}
-#soon{
-    
-    margin-top:200px;
-    padding:20px;
-    margin-left: 550px;
-}
-::selection{
-    background-color:tomato;
-    color:white;
-}
-#onay{
-     float: left;
-     margin-left:100px;
-     margin-top:-70px;
-     position: absolute;
-}
-#profil{ 
-  border-radius:6px;
-    width:500px;
-    height:600px;
-    background-color:#313131;
-    padding:10px;
-    transition: .1s all;
-}
-#profil:hover{
-    display:block;
-    box-shadow:white 0px 4px 8px 8px;
-}
-#profil>img{
-    border-radius:½50;
-    border:5px  red solid;
-    float: left;
-    margin-left:500px;
+ul{
+    margin-top:15px;
+    background-color:#f0a500;
+    transition:all 1s linear;
+    color:black;
+    width:300px;
+    height:110px;
     padding:20px;
     cursor: pointer;
+    margin-left:20px;
 }
-#mesj{
-   position: absolute;
-    margin-top:-180px;
-    margin-left:210px;
-    transition:all 1s;
-    border:none;
-    outline:none;
-    font-family:Impact;
-    padding:10px;
-    cursor: pointer;
-}
-#mesj:hover{
-
+ul:hover{
+    background-color: #cf7500;
     color:white;
-    background-color: darkgray;
-
-}#ig{
-    position: absolute;
-    margin-top:-200px;
-    margin-left:260px;
-    transition:all 1s;
-    border:none;
-    outline:none;
-    font-family:Impact;
-    padding:10px;
-    cursor: pointer;
 }
-#ig:hover{
-    color:white;
-    background-color:darkgray;
+ul:focus{
+    color:Red;
 }
-#youtube{
-    border-radius:4px;
-    position: absolute;
-    margin-top:-200px;
-    margin-left:310px;
-    transition:all 1s;
-    border:none;
-    outline:none;
-    font-family:Impact;
-    padding:10px;
-    cursor: pointer;
+#sosyal-menu img{
+    user-select: none;
+    transition:all 1s linear;
 }
-#youtube:hover{
-    background-color: darkgray;
-}
-#profil>h4{
-padding:10px;
-}
- #alt{
-background-color:black;
+ #sosyal-menu img:hover{
+     opacity:50%;
  }
-    
+ #baslik{
+     text-align: center;
+     padding:20px;
+     background-color: #cf7500;
+     border-radius:50px;
+     width:200px;
+     height:20px;
+     transition:all 1s linear;
+    position: relative;
+    user-select: none;
+ }
+ #baslik:hover{
+     color: white;
+ }
+ #Son-Yazilar{
+     margin-top:-30px;
+ }
+ #icerik{
+     width:300px;
+     height:200px;
+     background-color:#f0a500;
+     padding:80px;
+     border-radius:20px;
+     color:white;
+    }
+#siteler img{
 
-  
+    width:150px;
+    height:50px;
+    opacity:20%;
+    transition:all 1s linear;
+    background-color:grey;
+}
+#siteler img:hover{
+    opacity:100%;
+}
+#slider{
+    border-radius:4px;
+    margin-top:500px;
+    background-attachment: scroll;
+    background-color:#f0a500;
+}
