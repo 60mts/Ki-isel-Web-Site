@@ -1,67 +1,128 @@
-ul{
-    margin-top:15px;
-    background-color:#f0a500;
-    transition:all 1s linear;
-    color:black;
-    width:300px;
-    height:110px;
-    padding:20px;
-    cursor: pointer;
-    margin-left:20px;
+::selection{
+    background-color:tomato;
+    color: white;
 }
-ul:hover{
-    background-color: #cf7500;
+#ust{
+    color:red;
+    position:fixed;
+    box-shadow: #ec2F4B 0px 5px 15px;
+    margin-left: -10px;
+    margin-top:-10px;
+    width:100%;
+    height:80px;
+    border-bottom:2px solid red;
+    background-color:white;
+    padding:30px;
+    transition:.1s inherit;
+}
+nav>ul{
+    cursor: pointer;
+    font-family: 'Righteous', cursive;
+    float:left;
+    margin-left:50px;
+    transition:.1s all;
+    width:120px;
+    height:85px;
+    padding-top:50px;
+    padding-left:5px;
+    list-style: clamp 1px;
+}
+nav>ul:hover{
+    background-color: #ec2F4B;
     color:white;
 }
-ul:focus{
-    color:Red;
+#ara{
+    cursor: pointer;
 }
-#sosyal-menu img{
-    user-select: none;
-    transition:all 1s linear;
+#ara:hover>#araa{
+    transition: .4500ms ease-in;
+    display: block;
 }
- #sosyal-menu img:hover{
-     opacity:50%;
- }
- #baslik{
-     text-align: center;
-     padding:20px;
-     background-color: #cf7500;
-     border-radius:50px;
-     width:200px;
-     height:20px;
-     transition:all 1s linear;
-    position: relative;
+#ara:hover{
+    color:red;
+}
+body{
+    color:white;
+    font-family: acumin-pro, sans-serif; 
+    font-weight: 700; 
+    font-style: normal; 
+    background-color:#313131;
+}
+#sld-alt img{
+    user-select:none;
+    width:25px;
+    height:25px;
+}
+#alt-bilgi{
+   margin-top:500px;
+}
+#sld-alt-sosyal{
+    width:100%;
+    height:500px;
+    background-color:#414141;
+}
+#sld-alt-sosyal img{
+    float: left;
+    cursor: pointer;
+     user-select: none;
+    width:25px;
+    height:25px;
+    font-family: acumin-pro, sans-serif; 
+font-weight: 700; 
+font-style: italic; 
+}
+#yuvarlak{
+    background-color: white;
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    transition:.4500ms ease-in;
+}
+#yuvarlak:hover{
+    background-color: red;
+    width:35px;
+    height:35px;
+    border-radius:50%;
+}
+#mavi-tik{
     user-select: none;
- }
- #baslik:hover{
-     color: white;
- }
- #Son-Yazilar{
-     margin-top:-30px;
- }
- #icerik{
-     width:300px;
-     height:200px;
-     background-color:#f0a500;
-     padding:80px;
-     border-radius:20px;
-     color:white;
-    }
-#siteler img{
-
-    width:150px;
+}
+#mesaj-icon{
+    width:30px;
+    height:25px;
+    margin-top:0;
+}
+#mesaj-icon p{
+    margin-top:0;
+}
+ul li{
+    border-bottom:1px black solid;
+    margin-left:-5px;
+    color: red;
+    background-color:white;
+    align-items:center;
+    margin-top: 0px;
+    width:250px;
     height:50px;
-    opacity:20%;
-    transition:all 1s linear;
-    background-color:grey;
+    list-style:none;
+    transition:.1s ease-in;
+    display: none;
+    text-align-last: center;
 }
-#siteler img:hover{
-    opacity:100%;
+ul li:first{
+    margin-top:75px;
 }
-#slider{
-    border-radius:4px;
-    margin-top:500px;
-    background-attachment: scroll;
-    background-color:#f0a500;
+ul:hover li{
+    color:red;
+    display: block;
+    padding:10px 20px;
+    transition:.1s all;
+}
+ul li:hover{
+    background-color:#ec2F4B;
+   color:white;
+}
+#alt-menu{
+    text-decoration: none;
+    list-style-type:none;
 }
