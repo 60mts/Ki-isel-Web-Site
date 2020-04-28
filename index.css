@@ -1,103 +1,43 @@
-h1{
-    margin-top:-350px;
-    padding-left:50px;
-    color:white;
-    transition: all 1s;
+#ust{
+    font-family:'Josefin Sans', sans-serif;
 }
-#isim>h1:hover{
+#ust p{
+    padding:50px;
+    border-bottom:2px solid white;
+    margin-bottom:0;
+}
+#ust{
+    border-bottom:1px solid red;;
+}
+#ust ul{
+    float:right;
+    margin-top:-100px;
+}
+#ust-alt{
+    font-family: 'Alfa Slab One', cursive;
+}
+#ust-alt img{
+  margin-left:400px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    transition:all .1s linear;
+}
+a:hover{
+color:black;
+}
+#insta:hover{
+ color:saddlebrown;
+}
+#youtub:hover{
     color:red;
 }
-body{
-   background-color:#525252;
+#lk:hover{
+    color:aqua;
 }
-#soon{
-    
-    margin-top:200px;
-    padding:20px;
-    margin-left: 550px;
-}
-::selection{
-    background-color:tomato;
-    color:white;
-}
-#onay{
-     float: left;
-     margin-left:100px;
-     margin-top:-70px;
-     position: absolute;
-}
-#profil{ 
-  border-radius:6px;
-    width:500px;
-    height:600px;
-    background-color:#313131;
-    padding:10px;
-    transition: .1s all;
-}
-#profil:hover{
-    display:block;
-    box-shadow:white 0px 4px 8px 8px;
-}
-#profil>img{
-    border-radius:½50;
-    border:5px  red solid;
-    float: left;
-    margin-left:500px;
-    padding:20px;
-    cursor: pointer;
-}
-#mesj{
-   position: absolute;
-    margin-top:-180px;
-    margin-left:210px;
-    transition:all 1s;
-    border:none;
-    outline:none;
-    font-family:Impact;
-    padding:10px;
-    cursor: pointer;
-}
-#mesj:hover{
+#tw:hover{
+    color:blue;
 
-    color:white;
-    background-color: darkgray;
-
-}#ig{
-    position: absolute;
-    margin-top:-200px;
-    margin-left:260px;
-    transition:all 1s;
-    border:none;
-    outline:none;
-    font-family:Impact;
-    padding:10px;
-    cursor: pointer;
 }
-#ig:hover{
-    color:white;
-    background-color:darkgray;
-}
-#youtube{
-    border-radius:4px;
-    position: absolute;
-    margin-top:-200px;
-    margin-left:310px;
-    transition:all 1s;
-    border:none;
-    outline:none;
-    font-family:Impact;
-    padding:10px;
-    cursor: pointer;
-}
-#youtube:hover{
-    background-color: darkgray;
-}
-#profil>h4{
-padding:10px;
-}
- #alt{
-background-color:black;
- }
-    
-
-  
